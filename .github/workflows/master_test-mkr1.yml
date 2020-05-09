@@ -23,7 +23,7 @@ jobs:
     - name: npm install and build
       run: |
         npm install
-        npm run build -- --base-href='/dist/playangular/'
+        npm run build
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
@@ -31,4 +31,4 @@ jobs:
         app-name: 'test-mkr1'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b2d75e2f4a1148f886d164ec325dccb2 }}
-        package: .
+        package: ./dist/playangular
