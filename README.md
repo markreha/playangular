@@ -13,4 +13,4 @@ Run `ng generate component component-name` to generate a new component. You can 
   * Use APP_ROOT_DIR if you want to deploy to a URI of APP_ROOT_DIR of the web site
 2. Test the Angular App locally by using MAMP: Copy all the files under the dist directory to the MAMP htdocs directory
 
-# Deployment to Cloud Platforms
+## Deployment to Cloud Platforms
