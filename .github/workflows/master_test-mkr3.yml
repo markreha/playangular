@@ -1,7 +1,7 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
 
-name: Build and deploy Node.js app to Azure Web App - test-mkr3
+name: Build and deploy Node.js app to Azure Web App - test-mkr4
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'test-mkr3'
+        app-name: 'test-mkr4'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_e990f37c547c441cbc33ecb8347f5b0b }}
         package: .
