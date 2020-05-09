@@ -31,4 +31,4 @@ jobs:
         app-name: 'test-mkr1'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_b2d75e2f4a1148f886d164ec325dccb2 }}
-        package: /dist/playangular/
+        package: /dist/playangular
