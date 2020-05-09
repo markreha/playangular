@@ -23,7 +23,7 @@ jobs:
     - name: npm install and build
       run: |
         npm install
-        npm run build -- --base-href='/dist/playangular/'
+        npm run build --base-href='/dist/playangular/'
 
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
