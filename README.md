@@ -101,7 +101,7 @@ Run `ng generate component component-name` to generate a new component. You can 
     1. Configure code and setup build pipeline (if not already completed):
         * Add a buildspec.yml to the root of your application code for Node 10 application.
         
-  ```yaml
+```yaml
 version: 0.2
 
 # Build the code
@@ -130,8 +130,7 @@ artifacts:
     - Procfile
     - package.json
     - dist/**/*
-        ```
- 
+```
         * Log into AWS and select Services from the main menu.
         * Select the CodePipeline service.
         * Click the Create Pipeline button.
