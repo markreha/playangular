@@ -13,7 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
     * Use APP_NAME if you want to deploy to a URI of APP_NAME of the web site
 2. Test the Angular App locally by using MAMP: Copy all the files under the dist directory to the MAMP htdocs directory
 
-## Deployment to Cloud Platforms
+## Deployment to Cloud Platforms Instructions
 ## Azure
 1. Create a new Web App (if new application)
     1. Select the + Create a new Resource menu option.
@@ -38,3 +38,31 @@ Run `ng generate component component-name` to generate a new component. You can 
       * Click the Finish button.
       * In the GitHub repo modify the GitHub build workflow file in the .guthub/workflows directory
         * Change the package: . entry to package: ./dist/[APP_NAME]
+
+## Heroku:
+1. Create a new Web App (if new application)
+    1. Select the New button and select the Create new app menu option. Give your app a Name. Click the Create Appp button.
+    2. Select the GitHub deployment method and connection to your GitHub repository.
+    3. After your new application deployment is finished click the application link to test out. Click go to Resource.
+2. Open the Web App from the Dashboard
+3. Configure the application:
+				1. Update package.json to include the express library in the list of dependencies specifiying the version of express used in development (i.e. "express": "^4.17.1"):
+					* "express": "^4.17.1"
+				2. Update package.json to include a Heroku post install step to build the project in the list of scripts: 
+					* "heroku-postbuild": "ng build --base-href .". This step is only required for CI/CD builds.
+				3. Add a new file named Procfile to the repository with the following entry:
+					* web: node server.js
+				4. Add a new file named server.js to the repository that will be used to serve up the React application:
+					* Set the following code to initialize the Express application (and specify an APP_NAME):
+					  * app.use(express.static(__dirname));
+						* app.use(express.static(__dirname + '/dist/[APP_NAME]'));
+					* The /route should contain the following code (and specify an APP_NAME):
+						* res.sendFile(path.join(__dirname + '/dist/[APP_NAME]/index.html'));;  
+4. Deploy from a Build:
+    1. Run a build using the npm run build command.
+    2. Push all the code including the build directory to the repository.
+    3. Select the Deploy menu from Heroku. Click the Deploy Branch button.
+5. Deploy from a GIT CI/CD Build Pipeline:
+    1. Push all the code excluding the build directory to the repository.
+    2. Select the Deploy menu from Heroku. Click the Enable Automatic Deploy button. Click the Deploy Branch button.
+	
