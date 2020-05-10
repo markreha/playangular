@@ -99,7 +99,7 @@ Run `ng generate component component-name` to generate a new component. You can 
       * Click the Deploy button.
 5. Deploy from a GIT CI/CD Build Pipeline:
     1. Configure code and setup build pipeline (if not already completed):
-		    * Add a buildspec.yml to the root of your application code for Node 10 application.
+        * Add a buildspec.yml to the root of your application code for Node 10 application.
 		    * Log into AWS and select Services from the main menu.
         * Select the CodePipeline service.
         * Click the Create Pipeline button.
