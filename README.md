@@ -92,11 +92,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 		* The /route should contain the following code (and specify an APP_NAME):
 			* res.sendFile(path.join(__dirname + '/dist/[APP_NAME]/index.html'));;  
 4. Deploy from a Build:
-  1. Run a build using the ng build --base-href . command.
-  2. Zip up all the code and files within the dist directory but do not include the e2e, node_modules, and src directories.
-  3. Click on the Upload and deploy button.
-    * Click the Choose file button and select your zip file.
-    * Click the Deploy button.
+    1. Run a build using the ng build --base-href . command.
+    2. Zip up all the code and files within the dist directory but do not include the e2e, node_modules, and src directories.
+    3. Click on the Upload and deploy button.
+      * Click the Choose file button and select your zip file.
+      * Click the Deploy button.
 5. Deploy from a GIT CI/CD Build Pipeline:
     1. Configure code and setup build pipeline (if not already completed):
 			  * Add a buildspec.yml to the root of your application code for Node 10 application.
