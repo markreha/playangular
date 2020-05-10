@@ -54,10 +54,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 		  * web: node server.js
     4. Add a new file named server.js to the repository that will be used to serve up the React application:
 		  * Set the following code to initialize the Express application (and specify an APP_NAME):
-        * app.use(express.static(__dirname));
-        * app.use(express.static(__dirname + '/dist/[APP_NAME]');
+          * app.use(express.static(__dirname));
+          * app.use(express.static(__dirname + '/dist/[APP_NAME]');
       * The /route should contain the following code (and specify an APP_NAME):
-        * res.sendFile(path.join(__dirname + '/dist/[APP_NAME]/index.html');  
+          * res.sendFile(path.join(__dirname + '/dist/[APP_NAME]/index.html');  
 4. Deploy from a Build:
     1. Run a build using the ng build --base-href . command.
     2. Push all the code including the dist directory to the repository.
