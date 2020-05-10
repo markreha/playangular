@@ -46,8 +46,8 @@ Run `ng generate component component-name` to generate a new component. You can 
     3. After your new application deployment is finished click the application link to test out. Click go to Resource.
 2. Open the Web App from the Dashboard
 3. Configure the application:
-    1. Update package.json to include the express library in the list of dependencies specifiying the version of express used in development (i.e. "express": "^4.17.1"):
-      * "express": "^4.17.1"
+    1. Update package.json to include the express library in the list of dependencies specifiying the version of express used in development:
+        * "express": "^4.17.1"
     2. Update package.json to include a Heroku post install step to build the project in the list of scripts: 
 		  * "heroku-postbuild": "ng build --base-href .". This step is only required for CI/CD builds.
 	  3. Add a new file named Procfile to the repository with the following entry:
