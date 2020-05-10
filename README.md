@@ -17,9 +17,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 * .github/workflows - build scripts for Azure GitHub build pipeline
 * Procfile - start file for both Heroku and AWS Cloud Platforms
 * server.js - Express app used to serve the Angular application for both Heroku and AWS Cloud Platforms
-* buildspec.yml - CI/CD Build file for AWS CodePipeline
+* buildspec.yml - CI/CD build script for AWS CodePipeline
 * app.yaml - runtime configuration script for Google Cloud Platform
-* cloudbuild.yaml- build script for Google Cloud Build
+* cloudbuild.yaml- CI/CD build script for Google Cloud Build
 
 ## Deployment to Cloud Platform Instructions
 ## Azure
