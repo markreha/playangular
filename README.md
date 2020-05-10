@@ -130,6 +130,7 @@ artifacts:
     - Procfile
     - package.json
     - dist/**/*
+
 ```
         * Log into AWS and select Services from the main menu.
         * Select the CodePipeline service.
