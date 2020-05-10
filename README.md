@@ -13,7 +13,7 @@ Run `ng generate component component-name` to generate a new component. You can 
     * Use APP_NAME if you want to deploy to a URI of APP_NAME of the web site
 2. Test the Angular App locally by using MAMP: Copy all the files under the dist directory to the MAMP htdocs directory
 
-## Deployment to Cloud Platforms Instructions
+## Deployment to Cloud Platform Instructions
 ## Azure
 1. Create a new Web App (if new application)
     1. Select the + Create a new Resource menu option.
