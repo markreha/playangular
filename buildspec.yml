@@ -8,12 +8,11 @@ phases:
   pre_build:
     commands:
       - echo Installing source NPM dependencies...
-      - npm install ng
       - npm install
   build:
     commands:
       - echo Build started on `date`
-      - ng build --base-href .
+      - ng build --base-href ./
   post_build:
     commands:
       - echo Build completed on `date`
