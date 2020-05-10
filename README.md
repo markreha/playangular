@@ -25,7 +25,7 @@ Run `ng generate component component-name` to generate a new component. You can 
     2. Select the Debug console->CMD menu options.
     3. Navigate to the site/wwwroot directory.
     4. Delete the default content.
-    5. Zip up all the files under your files within the dist\APP_NAME directory. 
+    5. Zip up all the files under within the dist\APP_NAME directory. 
     6. Drag and drop the zip file onto the right side of the CMD window.		 
 4. Deploy from a GIT CI/CD Build Pipeline:
     1. Select the Deployment Center menu option.
