@@ -99,17 +99,17 @@ Run `ng generate component component-name` to generate a new component. You can 
       * Click the Deploy button.
 5. Deploy from a GIT CI/CD Build Pipeline:
     1. Configure code and setup build pipeline (if not already completed):
-		  * Add a buildspec.yml to the root of your application code for Node 10 application.
-		  * Log into AWS and select Services from the main menu.
-      * Select the CodePipeline service.
-      * Click the Create Pipeline button.
-      * Give your pipeline a name (i.e. TestAppPipeline). Click the Next step button.
-      * Select GitHub from the Source provider dropdown. Click the Connect to GitHub button and select your repository and master branch. Click the Next step button.
-      * Select AWS CodeBuild from the Build provider dropdown. Select the Create a new build project option. Give your build a name. Select Linux operating system with defaults and using a buildspec.
-      * Click the Create Project button.
-      * Click the Next step button.
-      *	Select AWS Elastic Beanstalk from the Deployment provider dropdown. Choose your Application and Environment from the dropdowns. Click the Next step button.
-      *	Click the Create pipeline button.
+		    * Add a buildspec.yml to the root of your application code for Node 10 application.
+		    * Log into AWS and select Services from the main menu.
+        * Select the CodePipeline service.
+        * Click the Create Pipeline button.
+        * Give your pipeline a name (i.e. TestAppPipeline). Click the Next step button.
+        * Select GitHub from the Source provider dropdown. Click the Connect to GitHub button and select your repository and master branch. Click the Next step button.
+        * Select AWS CodeBuild from the Build provider dropdown. Select the Create a new build project option. Give your build a name. Select Linux operating system with defaults and using a buildspec.
+        * Click the Create Project button.
+        * Click the Next step button.
+        *	Select AWS Elastic Beanstalk from the Deployment provider dropdown. Choose your Application and Environment from the dropdowns. Click the Next step button.
+        *	Click the Create pipeline button.
     2. To build and deploy your application:
-      * Select the CodePipeline service from the Services dashboard. Open the Pipeline.
-      * Either make a change to code in GitHub or click the Release change button to start a build and deployment.
+        * Select the CodePipeline service from the Services dashboard. Open the Pipeline.
+        * Either make a change to code in GitHub or click the Release change button to start a build and deployment.
