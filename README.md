@@ -21,12 +21,12 @@ Run `ng generate component component-name` to generate a new component. You can 
     * After your new application deployment is finished click the application link to test out. Click go to Resource.
 2. Open the Web App from the Dashboard
 3. Deploy from a Build:
-  1. Select Advanced Tools and click the Go link
-  2. Select the Debug console->CMD menu options.
-  3. Navigate to the site/wwwroot directory.
-  4. Delete the default content.
-  5. Zip up all the files under your files within the dist\APP_NAME directory. 
-  6. Drag and drop the zip file onto the right side of the CMD window.		 
+    * Select Advanced Tools and click the Go link
+    * Select the Debug console->CMD menu options.
+    * Navigate to the site/wwwroot directory.
+    * Delete the default content.
+    * Zip up all the files under your files within the dist\APP_NAME directory. 
+    6. Drag and drop the zip file onto the right side of the CMD window.		 
 4. Deploy from a GIT CI/CD Build Pipeline:
   1. Select the Deployment Center menu option.
   2. Select the GitHub CI/CD type (authorize access if necessary) and click the Continue button.
