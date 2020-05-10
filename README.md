@@ -13,6 +13,11 @@ Run `ng generate component component-name` to generate a new component. You can 
     * Use APP_NAME if you want to deploy to a URI of APP_NAME of the web site
 2. Test the Angular App locally by using MAMP: Copy all the files under the dist directory to the MAMP htdocs directory
 
+## Important Fies
+* Procfile - start file for both Heroku and AWS Cloud Platforms
+* server.js - Express app used to serve the Angular application
+* buildspec.yaml - CI/CD Build file for AWS CodePipeline
+
 ## Deployment to Cloud Platform Instructions
 ## Azure
 1. Create a new Web App (if new application)
