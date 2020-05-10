@@ -18,7 +18,8 @@ Run `ng generate component component-name` to generate a new component. You can 
 * Procfile - start file for both Heroku and AWS Cloud Platforms
 * server.js - Express app used to serve the Angular application for both Heroku and AWS Cloud Platforms
 * buildspec.yml - CI/CD Build file for AWS CodePipeline
-* app.yaml - build and configuration script for Google Cloud Platform
+* app.yaml - runtime configuration script for Google Cloud Platform
+* cloudbuild.yaml- build script for Google Cloud Build
 
 ## Deployment to Cloud Platform Instructions
 ## Azure
