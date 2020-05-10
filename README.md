@@ -14,9 +14,9 @@ Run `ng generate component component-name` to generate a new component. You can 
 2. Test the Angular App locally by using MAMP: Copy all the files under the dist directory to the MAMP htdocs directory
 
 ## Deployment to Cloud Platforms
-##Azure
+## Azure
 1. Create a new Web App (if new application)
-  1. Select the + Create a new Resource menu option.
+  * Select the + Create a new Resource menu option.
   2. Select Web App, select to Publish Code, select Node 10.x Runtime stack either Windows (required for Zip deploy) or Linux, and select a desired Region. Click Review + Create. Click Create.
   3. After your new application deployment is finished click the application link to test out. Click go to Resource.
 2. Open the Web App from the Dashboard
