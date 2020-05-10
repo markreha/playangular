@@ -130,9 +130,8 @@ artifacts:
     - Procfile
     - package.json
     - dist/**/*
-
 ```
-        * Log into AWS and select Services from the main menu.
+  * Log into AWS and select Services from the main menu.
         * Select the CodePipeline service.
         * Click the Create Pipeline button.
         * Give your pipeline a name (i.e. TestAppPipeline). Click the Next step button.
