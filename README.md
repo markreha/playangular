@@ -45,6 +45,7 @@ Run `ng generate component component-name` to generate a new component. You can 
       * Click the Finish button.
       * In the GitHub repo modify the GitHub build workflow file in the .guthub/workflows directory
         * Change the package: . entry to package: ./dist/[APP_NAME]
+        * Remove the steps for Unit Testing
 
 ## Heroku:
 1. Create a new Web App (if new application)
