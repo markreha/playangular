@@ -52,7 +52,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 		  * "heroku-postbuild": "ng build --base-href .". This step is only required for CI/CD builds.
 	  3. Add a new file named Procfile to the repository with the following entry:
 		  * web: node server.js
-		4. Add a new file named server.js to the repository that will be used to serve up the React application:
+    4. Add a new file named server.js to the repository that will be used to serve up the React application:
 		  * Set the following code to initialize the Express application (and specify an APP_NAME):
         * app.use(express.static(__dirname));
         * app.use(express.static(__dirname + '/dist/[APP_NAME]');
