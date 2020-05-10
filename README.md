@@ -16,7 +16,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Important Fies
 * .github/workflows - build scripts for Azure GitHub build pipeline
 * Procfile - start file for both Heroku and AWS Cloud Platforms
-* server.js - Express app used to serve the Angular application
+* server.js - Express app used to serve the Angular application for both Heroku and AWS Cloud Platforms
 * buildspec.yml - CI/CD Build file for AWS CodePipeline
 * app.yaml - build and configuration script for Google Cloud Platform
 
