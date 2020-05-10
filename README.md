@@ -113,8 +113,8 @@ Run `ng generate component component-name` to generate a new component. You can 
     2. To build and deploy your application:
       * Select the CodePipeline service from the Services dashboard. Open the Pipeline.
       * Either make a change to code in GitHub or click the Release change button to start a build and deployment.
-      
-      
+ 
+ 
       ```yaml
       version: 0.2
 
