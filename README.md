@@ -100,6 +100,37 @@ Run `ng generate component component-name` to generate a new component. You can 
 5. Deploy from a GIT CI/CD Build Pipeline:
     1. Configure code and setup build pipeline (if not already completed):
         * Add a buildspec.yml to the root of your application code for Node 10 application.
+        
+```yaml
+version: 0.2
+
+# Build the code
+phases:
+  install:
+    runtime-versions:
+      nodejs: 10  
+  pre_build:
+    commands:
+      - echo Installing source NPM dependencies...
+      - npm install
+      - npm install -g @angular/cli
+  build:
+    commands:
+      - echo Build started on `date`
+      - ng build --base-href .
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+# Include only the files required for your application to run.
+artifacts:
+  files:
+    - angular.json
+    - server.js
+    - Procfile
+    - package.json
+    - dist/**/*
+ ```       
         * Log into AWS and select Services from the main menu.
         * Select the CodePipeline service.
         * Click the Create Pipeline button.
