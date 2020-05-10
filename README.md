@@ -9,15 +9,15 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build and Testing
 1. Run `ng build --base-href [APP_NAME]` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-  * Use . if you want to deploy to the root directory of the web site
-  * Use APP_NAME if you want to deploy to a URI of APP_NAME of the web site
+    * Use . if you want to deploy to the root directory of the web site
+    * Use APP_NAME if you want to deploy to a URI of APP_NAME of the web site
 2. Test the Angular App locally by using MAMP: Copy all the files under the dist directory to the MAMP htdocs directory
 
 ## Deployment to Cloud Platforms
 ## Azure
 1. Create a new Web App (if new application)
   * Select the + Create a new Resource menu option.
-  2. Select Web App, select to Publish Code, select Node 10.x Runtime stack either Windows (required for Zip deploy) or Linux, and select a desired Region. Click Review + Create. Click Create.
+    2. Select Web App, select to Publish Code, select Node 10.x Runtime stack either Windows (required for Zip deploy) or Linux, and select a desired Region. Click Review + Create. Click Create.
   3. After your new application deployment is finished click the application link to test out. Click go to Resource.
 2. Open the Web App from the Dashboard
 3. Deploy from a Build:
