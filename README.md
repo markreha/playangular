@@ -1,4 +1,9 @@
 # A simple Angular that can be used for testing in various Cloud Platforms like Azure and Heroku. See the following directions for deploying an Angular application to Azure, AWS, Heroku, and Google Cloud.
+
+<p align="center">
+<img src="Diagrams/logo1.jpg"/><img src="Diagrams/logo2.jpg" /><img src="Diagrams/logo3.jpg" /> 
+</p>
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Development server
