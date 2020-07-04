@@ -4,7 +4,7 @@
 <img src="Diagrams/logo5.jpg"/><img src="Diagrams/logo4.jpg" /><img src="Diagrams/logo3.png" /> 
 </p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6. A future revision of this application will include the use of Server Side Rendering.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
